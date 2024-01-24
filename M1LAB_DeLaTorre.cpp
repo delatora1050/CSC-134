@@ -25,7 +25,7 @@ int main()
     double price_per_apple = 0.25;
 
     // Calculate the total price of the apples
-    double Total_Price = num_apples * price_per_apple;
+    double total_Price = num_apples * price_per_apple;
 
 
 
@@ -34,7 +34,7 @@ int main()
     cout << "Welcome to " << name << "'s Apple Orchard." << endl;
     cout << "We have " << num_apples << " apples in stock. \n";
     cout << "At the cost of $" << price_per_apple << " each.\n";
-    cout << "If you want all the apples, the total is $" << Total_Price << ".\n";
+    cout << "If you want all the apples, the total is $" << total_Price << ".\n";
 
     cout << endl << endl;
 
