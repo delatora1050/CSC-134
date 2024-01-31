@@ -28,7 +28,7 @@ int main(){
 
     // Ask how many apple they want
     cout << "How many apples would you like? ";
-    cin >> setprecision (2) >> fixed >> apples;
+    cin >> apples;
 	
 
 	//  TODO calculations
@@ -38,10 +38,13 @@ int main(){
     cout << endl;
 	cout << "You ordered "<< apples << " apples."<< endl;
     cout << "Here is your receipt." << endl;
-    cout << "----------------------" << endl;
-	cout << "Apples: \t\t " << apples << endl;
+    cout << endl;
+    cout << "----------------------------" << endl;
+	cout << "Apples: \t\t " << setprecision (2) << fixed << apples << endl;
 	cout << "Price per apple: \t$" << price_each << endl;
-	cout << "Total price: \t\t$" << total << endl;
+	cout << "Total price: \t\t$" << setprecision (2) << fixed << total << endl;
+    cout << "----------------------------" << endl;
+    cout << "Thank you for shpping with us! \342\230\272" << endl;
 	cout << endl;
 
 	}
