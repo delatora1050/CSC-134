@@ -6,6 +6,7 @@
 
 
 #include <iostream>
+#include <iomanip>
 using namespace std;
 
 int main(){
@@ -23,12 +24,11 @@ int main(){
 
     // Ask for the price of each
     cout << "What is the price for each apple? ";
-    cin >> price_each;
+    cin >> setprecision (2) >> fixed >> price_each;
 
     // Ask how many apple they want
     cout << "How many apples would you like? ";
-    cin >> apples;
-
+    cin >> setprecision (2) >> fixed >> apples;
 	
 
 	//  TODO calculations
@@ -38,8 +38,9 @@ int main(){
     cout << endl;
 	cout << "You ordered "<< apples << " apples."<< endl;
     cout << "Here is your receipt." << endl;
-	cout << "Apples: \t\t" << apples << endl;
-	cout << "Price: \t\t\t$" << price_each << endl;
+    cout << "----------------------" << endl;
+	cout << "Apples: \t\t " << apples << endl;
+	cout << "Price per apple: \t$" << price_each << endl;
 	cout << "Total price: \t\t$" << total << endl;
 
 	cout << endl;
