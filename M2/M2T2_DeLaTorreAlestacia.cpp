@@ -42,7 +42,6 @@ int main(){
 	cout << "Apples: \t\t " << apples << endl;
 	cout << "Price per apple: \t$" << price_each << endl;
 	cout << "Total price: \t\t$" << total << endl;
-
 	cout << endl;
 
 	}
