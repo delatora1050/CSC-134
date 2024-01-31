@@ -23,7 +23,6 @@ int main(){
 	//print all the information about the orchard
 	cout << "Welcome to " << name;
 	cout << "'s apple orchard." << endl;
-	cout << endl;
 	cout << "We have "<< apples;
 	cout << " apples in stock." << endl;
 	cout << "Apple are currently $";
