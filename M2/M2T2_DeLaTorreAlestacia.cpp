@@ -39,11 +39,11 @@ int main(){
 	cout << "You ordered "<< apples << " apples."<< endl;
     cout << "Here is your receipt." << endl;
     cout << endl;
-    cout << "----------------------------" << endl;
+    cout << "------------------------------" << endl;
 	cout << "Apples: \t\t " << setprecision (2) << fixed << apples << endl;
 	cout << "Price per apple: \t$" << price_each << endl;
 	cout << "Total price: \t\t$" << setprecision (2) << fixed << total << endl;
-    cout << "----------------------------" << endl;
+    cout << "------------------------------" << endl;
     cout << "Thank you for shpping with us! \342\230\272" << endl;
 	cout << endl;
 
