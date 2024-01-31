@@ -24,7 +24,7 @@ int main(){
 
     // Ask for the price of each
     cout << "What is the price for each apple? ";
-    cin >> setprecision (2) >> fixed >> price_each;
+    cin >> price_each;
 
     // Ask how many apple they want
     cout << "How many apples would you like? ";
