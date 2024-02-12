@@ -1,14 +1,20 @@
-
+/*
+CSC - 134
+M2HW1 #1
+De La Torre,Alestacia
+20240211
+*/
 
 
 #include <iostream>
-#include <string>
+#include <string> 
+#include <iomanip>
 using namespace std;
 int main() {
     string name;
     double num_dep;
     double num_with;
-    int acct_num = 158763;
+    int acct_num = rand();
     double acct_bal= 0;
     double total;
 
@@ -18,7 +24,7 @@ int main() {
     cout << "How much would you like to deposit? ";
     cin >> num_dep;
 
-    cout << " How much would you like to widthdraw? ";
+    cout << "How much would you like to widthdraw? ";
     cin >> num_with;
 
     acct_bal = (num_dep + acct_bal);
@@ -29,7 +35,7 @@ int main() {
 
     cout << "Printed is " << name << "'s account summary" << endl;
     cout << "Your Account number is #" << acct_num <<"." << endl;
-    cout << "Your current balance is $" << total << endl;
+    cout << "Your current balance is $" << setprecision (2) << fixed << total << endl;
     cout << endl;
     
     return 0;
