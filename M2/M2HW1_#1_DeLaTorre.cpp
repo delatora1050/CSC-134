@@ -2,6 +2,7 @@
 
 
 #include <iostream>
+#include <string>
 using namespace std;
 int main() {
     string name;
@@ -12,8 +13,8 @@ int main() {
     double total;
 
     cout << "Hello! What is the name on the account? ";
-    cin >> name;
-
+    getline(cin, name);
+    
     cout << "How much would you like to deposit? ";
     cin >> num_dep;
 
@@ -23,11 +24,13 @@ int main() {
     acct_bal = (num_dep + acct_bal);
     acct_bal = (acct_bal - num_with);
     total = acct_bal;
+    cout << endl;
 
 
-    cout << "Printed is " << name << " account summary" << endl;
-    cout << "Your Account number is " << acct_num << endl;
-    cout << "Your current balance is " << total << endl;
+    cout << "Printed is " << name << "'s account summary" << endl;
+    cout << "Your Account number is #" << acct_num <<"." << endl;
+    cout << "Your current balance is $" << total << endl;
+    cout << endl;
     
     return 0;
 }
