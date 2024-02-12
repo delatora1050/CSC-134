@@ -13,7 +13,7 @@ using namespace std;
 int main()
 {
     // Declare Variable
-    const double COST_PER_CUBIC_FOOT = 0.30.;.0
+    const double COST_PER_CUBIC_FOOT = 0.30;
     const double CHARGE_PER_CUBIC_FOOT = 0.5;
     double length, width , height, volume;
     double cost, charge, profit;
