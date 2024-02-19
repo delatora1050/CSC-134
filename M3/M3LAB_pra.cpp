@@ -53,17 +53,17 @@ int main() {
 void chooseDoor1()
 {
   cout << "You choose to start indoors!" << endl;
-  cout << "You are sitting at the foot of your bed.\n Do you want to stand up or go back to sleep" << endl;
+  cout << "You are sitting at the foot of your bed.\nDo you want to stand up or go back to sleep" << endl;
   cout << "Type 1 or 2: ";
   cin >> choice;
   if (1 == choice){
-    cout << " You start to stand and begin to walk and eat breakfast" << endl;
+    cout << "You start to stand and begin to walk and eat breakfast. You're ready to start your day!" << endl;
   }
   else if ( 2 == choice){
-    cout << "You fall back into your bed and beging to cloose your eyes\n Slowly dozing off to sleep" << endl;
+    cout << "You fall back into your bed and beging to cloose your eyes, slowly dozing off to sleep." << endl;
   }
   else {
-    cout << " Oh no, Invalid choices! Please try again"<< endl;
+    cout << "Oh no, Invalid choices! Please try again"<< endl;
   }
 }
 
@@ -85,7 +85,7 @@ void chooseDoor2()
       cout << "As you settle in against the apple tree you open the pages to your book. Feeling each page with the tips of your fingers." << endl;
     }
     else {
-      cout << "Please try again!" << endl;
+      cout << "Invalid selection , please try again!" << endl;
     }
   }
   else if (2 == choice){
