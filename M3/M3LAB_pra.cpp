@@ -14,6 +14,7 @@ using namespace std;
 
 void chooseDoor1();
 void chooseDoor2();
+int choice;
 
 // beginning of the main() method
 int main() {
@@ -53,16 +54,16 @@ void chooseDoor1()
 {
   cout << "You choose to start indoors!" << endl;
   cout << "You are sitting at the foot of your bed.\n Do you want to stand up or go back to sleep" << endl;
-  cout << "Type 1 or 2";
+  cout << "Type 1 or 2: ";
   cin >> choice;
   if (1 == choice){
     cout << " You start to stand and begin to walk and eat breakfast" << endl;
   }
   else if ( 2 == choice){
-    cout << " You fall back into your bed and beging to cloose your eyes\n Slowly dozing off to sleep" << endl;
+    cout << "You fall back into your bed and beging to cloose your eyes\n Slowly dozing off to sleep" << endl;
   }
   else {
-    cout << " Oh no, Invalid choices! Please try again"
+    cout << " Oh no, Invalid choices! Please try again"<< endl;
   }
 }
 
@@ -70,21 +71,21 @@ void chooseDoor2()
 {
   cout << "You are outside of your house!" << endl;
   cout << "Do you want to walk twords the apple tree or to the swing? " << endl;
-  cout << "Type 1 or 2";
+  cout << "Type 1 or 2: ";
   cin >> choice;
   if (1 == choice){
-    cout << "As you walk twords the apple tree with a book in hand. Once you get there you sit down and look at the sunset" << endl;
+    cout << "You walk twords the apple tree with a book in hand. Once you get there you sit down and look at the sunset" << endl;
     cout << "Do you want to doze off looking at the sunset or read your book?" << endl;
-    cout << "Type 1 or 2";
+    cout << "Type 1 or 2: ";
     cin >> choice;
-    if (1 == chocie){
+    if (1 == choice){
       cout << "As you sit against the apple tree admiring the sunset you eyes begin to feel heavy.\n You start to feel sleeply slowly dozing off to complete slumber" << endl;
     }
     else if (2 == choice){
-      cout << "As you settle in against the apple tree you open the pages to your book. Feeling each page with the tips of your fingers."
+      cout << "As you settle in against the apple tree you open the pages to your book. Feeling each page with the tips of your fingers." << endl;
     }
     else {
-      cout << "Please try again!"
+      cout << "Please try again!" << endl;
     }
   }
   else if (2 == choice){
