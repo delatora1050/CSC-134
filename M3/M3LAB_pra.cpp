@@ -45,7 +45,7 @@ int main() {
   }
 
   // finish up
-  cout << "Thanks for playing!" << endl; // this runs no matter what they choose
+  cout << "The adventure over for now..." << endl; // this runs no matter what they choose
   return 0; // exit without error
 
 } // end of the main() method
@@ -79,10 +79,10 @@ void chooseDoor2()
     cout << "Type 1 or 2: ";
     cin >> choice;
     if (1 == choice){
-      cout << "As you sit against the apple tree admiring the sunset you eyes begin to feel heavy.\n You start to feel sleeply slowly dozing off to complete slumber" << endl;
+      cout << "As you sit against the apple tree admiring the sunset you eyes begin to feel heavy.\nYou start to feel sleeply slowly dozing off to complete slumber" << endl;
     }
     else if (2 == choice){
-      cout << "As you settle in against the apple tree you open the pages to your book. Feeling each page with the tips of your fingers." << endl;
+      cout << "As you settle in against the apple tree you open the pages to your book. Feeling each page with the tips of your fingers, engulfed in the books story." << endl;
     }
     else {
       cout << "Invalid selection , please try again!" << endl;
