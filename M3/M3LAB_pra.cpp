@@ -1,6 +1,6 @@
 // if statement example2
 /*  CSC 134
-    M3LAB1
+    M3LAB1 - simple Adventure
     De La Torre, Alestacia
     20240219
 
