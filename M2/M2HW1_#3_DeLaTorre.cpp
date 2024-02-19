@@ -13,7 +13,8 @@ int main() {
     int slice_per_pizza;
     int left_over_pizza;
     int slice_per_person = 3;
-    int temp;
+    int slice_count;
+    int slice_eat_total;
 
     cout << "Hello and welcome! How many guest will you be having? " << endl;
     cin >> amt_people;
@@ -24,11 +25,20 @@ int main() {
     cout << "And how many slices per pizza would you like? " << endl;
     cin >> slice_per_pizza;
 
-    temp = slice_per_pizza * amt_pizza;
-    left_over_pizza = (slice_per_person * amt_people) - temp;
+    slice_count = slice_per_pizza * amt_pizza;
+    slice_eat_total = slice_per_person * amt_people;
+    left_over_pizza = slice_count - slice_eat_total;
 
-    cout << "It looks like the amount of pizza left over is " << left_over_pizza << "." << endl;
-    cout << endl;
+    if (left_over_pizza <= 0)
+    {
+        cout << "There is no more pizza slices left over!"<< endl;
+        cout << endl;
+    }
+    else
+    {
+        cout << "It looks like the amount of pizza slices left over is " << left_over_pizza << "." << endl;
+        cout << endl;
+    }
 
 
     return 0;

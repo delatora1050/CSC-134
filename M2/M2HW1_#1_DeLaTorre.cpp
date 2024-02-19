@@ -34,8 +34,8 @@ int main() {
 
 
     cout << "Printed is " << name << "'s account summary" << endl;
-    cout << "Your Account number is #" << acct_num <<"." << endl;
-    cout << "Your current balance is $" << setprecision (2) << fixed << total << endl;
+    cout << "Your Account number is #" << acct_num << "." << endl;
+    cout << "Your current balance is $" << setprecision (2) << fixed << total << "." << endl;
     cout << endl;
     
     return 0;
