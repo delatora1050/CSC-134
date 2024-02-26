@@ -17,7 +17,7 @@ int main()
     double num_grade;
 
     //ask fo num grade
-    cout << "Hello and welcome to the the number grade to letter grade conversion calculator!" << endl;
+    cout << "Hello and welcome to the the number grade to letter grade conversion calculator!\n" << endl;
     cout << "Please enter you number grade: ";
     cin >> num_grade;
 
