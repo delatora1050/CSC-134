@@ -48,6 +48,9 @@ int main()
     {
         cout << "Not a valid number. Please try again. " << endl;
     }   
+    
+    cout << endl;
+    
     return 0;
 
 }
